@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 20px;
+  background: #f8f9fa;
+  border-right: 2px solid #ccc;
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sidebar li:hover {
+  background: #0056b3;
+}
